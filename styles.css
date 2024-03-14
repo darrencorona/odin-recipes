@@ -1,0 +1,82 @@
+/* 
+color hunt:
+1. #fafad2
+2. #CECE5A
+3. #FFE17B
+4. #FD8D14
+5. #C51605
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fafad2;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px auto 30px;
+  font-size: 40px;
+}
+
+h1,
+h2 {
+  color: #c51605;
+}
+
+h2 {
+  margin: 50px auto 30px;
+}
+
+p,
+ul,
+ol {
+  width: 600px;
+  margin: auto;
+}
+
+p,
+ul li,
+ol li {
+  margin-bottom: 20px;
+}
+
+ul .recipe {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 23px;
+}
+
+li a:hover {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+a:visited {
+  color: #000;
+}
+
+/* IMAGES */
+.adobo {
+  height: auto;
+  width: 500px;
+}
+
+.lumpia {
+  height: 310px;
+  width: 500px;
+}
+
+.halohalo {
+  height: 500px;
+  width: auto;
+}
